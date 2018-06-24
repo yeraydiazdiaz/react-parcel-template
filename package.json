@@ -1,14 +1,21 @@
 {
   "name": "react-parcel-template",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yeraydiazdiaz/react-parcel-template"
+  },
   "version": "1.0.0",
-  "description": "A template for React using Parcel",
+  "description": "A simple setup for React apps using Parcel and Mocha + Enzyme tests",
   "main": "index.js",
   "scripts": {
     "start": "parcel src/index.html",
-    "test": "mocha"
+    "test": "mocha",
+    "test-watch": "mocha --watch",
+    "build": "parcel build src/index.html"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Yeray Diaz Diaz",
+  "license": "MIT",
+  "keywords": ["react", "parcel", "mocha", "enzyme"],
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
