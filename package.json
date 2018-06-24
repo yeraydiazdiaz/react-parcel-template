@@ -1,0 +1,22 @@
+{
+  "name": "react-parcel-template",
+  "version": "1.0.0",
+  "description": "A template for React using Parcel",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-hot-loader": "^4.3.3"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.9.2"
+  }
+}
